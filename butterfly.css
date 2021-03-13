@@ -1,0 +1,65 @@
+@font-face {
+    font-family: '1942';
+    src: url(fonts/1942.ttf);
+    font-style: normal;
+    font-weight:100;
+}
+
+@font-face {
+    font-family: 'traveling';
+    src: url(fonts/TravelingTypewriter.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'barcode';
+    src: url(fonts/LibreBarcode128Text-Regular.ttf)
+}
+
+.bottom {
+    margin-bottom: 40px;
+}
+
+.header {
+    font-size: 23px;
+    font-family: '1942';
+    margin-top: 15px;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    
+}
+.name {
+    font-family: 'traveling';
+}
+.outer {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    top: 45%;
+    left: 45%;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin: 150px auto 150px auto;
+    
+}
+
+.que {
+    margin-left: 25%
+
+}
+
+label, input {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+input {
+    margin-bottom: 2%;
+}
+
+#submit {
+    margin-top: 2%;
+    font-family: 'barcode';
+    font-size: 25px;
+}
